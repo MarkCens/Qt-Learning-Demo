@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/app_round_button_black.9.png</file>
+        <file>img/app_round_button_darkblue.9.png</file>
+        <file>img/app_round_button_gray.9.png</file>
+        <file>img/app_round_button_green.9.png</file>
+        <file>img/app_round_button_white.9.png</file>
+        <file>img/app_up.png</file>
+        <file>img/app_up_down.png</file>
+        <file>img/app_round_button_transparent.9.png</file>
+        <file>img/app_1title_dark_appicon1.png</file>
+        <file>img/app_up_down_hover.png</file>
+        <file>img/app_up_hover.png</file>
+    </qresource>
+</RCC>

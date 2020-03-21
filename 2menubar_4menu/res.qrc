@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/app_2menu_new.png</file>
+        <file>img/app_2menu_open.png</file>
+        <file>img/app_2menu_save.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/app_1title_dark_appicon.png</file>
+    </qresource>
+</RCC>

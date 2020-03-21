@@ -1,0 +1,1233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>828</width>
+    <height>523</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="iconSize">
+   <size>
+    <width>28</width>
+    <height>28</height>
+   </size>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(41, 47, 68)</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QWidget" name="main_wg_menu" native="true">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(41, 47, 68)</string>
+      </property>
+      <layout class="QHBoxLayout" name="main_hl_menubar">
+       <property name="leftMargin">
+        <number>3</number>
+       </property>
+       <property name="topMargin">
+        <number>3</number>
+       </property>
+       <property name="rightMargin">
+        <number>3</number>
+       </property>
+       <property name="bottomMargin">
+        <number>3</number>
+       </property>
+       <item>
+        <widget class="QPushButton" name="main_menu_bt_1file">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>72</width>
+           <height>21</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{font: 75 10pt &quot;微软雅黑&quot;;border-image:url(:/img/app_round_button_transparent.9.png);color:rgb(234, 234, 234)}
+QPushButton:hover{border-image: url(:/img/app_round_button_darkblue.9.png);color:rgb(255,255,255)}
+QPushButton:pressed{border-image: url(:/img/app_round_button_transparent.9.png);color:rgb(234, 234, 234)}
+QPushButton::menu-indicator{image:None;}</string>
+         </property>
+         <property name="text">
+          <string>文件(F)</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="main_menu_bt_2edit">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>72</width>
+           <height>21</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{font: 75 10pt &quot;微软雅黑&quot;;border-image:url(:/img/app_round_button_transparent.9.png);color:rgb(234, 234, 234)}
+QPushButton:hover{border-image: url(:/img/app_round_button_darkblue.9.png);color:rgb(255,255,255)}
+QPushButton:pressed{border-image: url(:/img/app_round_button_transparent.9.png);color:rgb(234, 234, 234)}
+QPushButton::menu-indicator{image:None;}</string>
+         </property>
+         <property name="text">
+          <string>编辑(E)</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="main_menu_bt_3setting">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>72</width>
+           <height>21</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{font: 75 10pt &quot;微软雅黑&quot;;border-image:url(:/img/app_round_button_transparent.9.png);color:rgb(234, 234, 234)}
+QPushButton:hover{border-image: url(:/img/app_round_button_darkblue.9.png);color:rgb(255,255,255)}
+QPushButton:pressed{border-image: url(:/img/app_round_button_transparent.9.png);color:rgb(234, 234, 234)}
+QPushButton::menu-indicator{image:None;}</string>
+         </property>
+         <property name="text">
+          <string>插件(P)</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="main_menu_bt_4theme">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>72</width>
+           <height>21</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{font: 75 10pt &quot;微软雅黑&quot;;border-image:url(:/img/app_round_button_transparent.9.png);color:rgb(234, 234, 234)}
+QPushButton:hover{border-image: url(:/img/app_round_button_darkblue.9.png);color:rgb(255,255,255)}
+QPushButton:pressed{border-image: url(:/img/app_round_button_transparent.9.png);color:rgb(234, 234, 234)}
+QPushButton::menu-indicator{image:None;}</string>
+         </property>
+         <property name="text">
+          <string>主题(T)</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="main_menu_bt_5help">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>72</width>
+           <height>21</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{font: 75 10pt &quot;微软雅黑&quot;;border-image:url(:/img/app_round_button_transparent.9.png);color:rgb(234, 234, 234)}
+QPushButton:hover{border-image: url(:/img/app_round_button_darkblue.9.png);color:rgb(255,255,255)}
+QPushButton:pressed{border-image: url(:/img/app_round_button_transparent.9.png);color:rgb(234, 234, 234)}
+QPushButton::menu-indicator{image:None;}</string>
+         </property>
+         <property name="text">
+          <string>帮助(H)</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="main_menu_bt_6bystep">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>72</width>
+           <height>21</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{font: 75 10pt &quot;微软雅黑&quot;;border-image:url(:/img/app_round_button_darkblue.9.png);color:rgb(234, 234, 234)}
+QPushButton:hover{border-image: url(:/img/app_round_button_green.9.png);color:rgb(255,255,255)}
+QPushButton:pressed{border-image: url(:/img/app_round_button_darkblue.9.png);color:rgb(234, 234, 234)}
+QPushButton::menu-indicator{image:None;}</string>
+         </property>
+         <property name="text">
+          <string>单步分析</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="main_menu_bt_7compile">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>72</width>
+           <height>21</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{font: 75 10pt &quot;微软雅黑&quot;;border-image:url(:/img/app_round_button_darkblue.9.png);color:rgb(234, 234, 234)}
+QPushButton:hover{border-image: url(:/img/app_round_button_green.9.png);color:rgb(255,255,255)}
+QPushButton:pressed{border-image: url(:/img/app_round_button_darkblue.9.png);color:rgb(234, 234, 234)}
+QPushButton::menu-indicator{image:None;}</string>
+         </property>
+         <property name="text">
+          <string>编译</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="main_menu_bt_8run">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>72</width>
+           <height>21</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{font: 75 10pt &quot;微软雅黑&quot;;border-image:url(:/img/app_round_button_darkblue.9.png);color:rgb(234, 234, 234)}
+QPushButton:hover{border-image: url(:/img/app_round_button_green.9.png);color:rgb(255,255,255)}
+QPushButton:pressed{border-image: url(:/img/app_round_button_darkblue.9.png);color:rgb(234, 234, 234)}
+QPushButton::menu-indicator{image:None;}</string>
+         </property>
+         <property name="text">
+          <string>运行</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="main_wg_main" native="true">
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(33, 37, 50)</string>
+      </property>
+      <layout class="QVBoxLayout" name="main_vl_main">
+       <property name="sizeConstraint">
+        <enum>QLayout::SetMaximumSize</enum>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="main_wg_result" native="true">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(41, 47, 68)</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>3</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="main_hl_result_title">
+         <property name="leftMargin">
+          <number>6</number>
+         </property>
+         <property name="rightMargin">
+          <number>6</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="label_15">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>20</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>20</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 75 10pt &quot;微软雅黑&quot;;
+color:rgb(234, 234, 234);</string>
+           </property>
+           <property name="text">
+            <string>C语言编译器GUET-SCC-Version1.0 编译输出结果：</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_9">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="main_result_bt_hide">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>15</width>
+             <height>15</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{border-image:url(:/img/app_up_down.png)}
+QPushButton:hover{border-image: url(:/img/app_up_down_hover.png)}
+QPushButton:pressed{border-image: url(:/img/app_up_down.png)}</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="main_hl_result_la">
+         <property name="leftMargin">
+          <number>32</number>
+         </property>
+         <property name="rightMargin">
+          <number>3</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="styleSheet">
+            <string notr="true">font: 75 10pt &quot;微软雅黑&quot;;
+color:rgb(234, 234, 234);</string>
+           </property>
+           <property name="text">
+            <string>词法分析</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="main_hl_result_la_abstract">
+           <property name="styleSheet">
+            <string notr="true">font: 75 10pt &quot;微软雅黑&quot;;
+color:rgb(234, 234, 234);</string>
+           </property>
+           <property name="text">
+            <string>-----&gt;</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="main_hl_result_la_see">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>72</width>
+             <height>21</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{font: 75 10pt &quot;微软雅黑&quot;;border-image:url(:/img/app_round_button_gray.9.png);color:rgb(33, 37, 50)}
+QPushButton:hover{border-image: url(:/img/app_round_button_darkblue.9.png);color:rgb(255,255,255)}
+QPushButton:pressed{border-image: url(:/img/app_round_button_gray.9.png);color:rgb(33, 37, 50)}</string>
+           </property>
+           <property name="text">
+            <string>查看</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="main_hl_result_ga">
+         <property name="leftMargin">
+          <number>32</number>
+         </property>
+         <property name="rightMargin">
+          <number>3</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="label_3">
+           <property name="styleSheet">
+            <string notr="true">font: 75 10pt &quot;微软雅黑&quot;;
+color:rgb(234, 234, 234);</string>
+           </property>
+           <property name="text">
+            <string>语法分析</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="main_hl_result_ga_abstract">
+           <property name="styleSheet">
+            <string notr="true">font: 75 10pt &quot;微软雅黑&quot;;
+color:rgb(234, 234, 234);</string>
+           </property>
+           <property name="text">
+            <string>-----&gt;</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="main_hl_result_ga_see">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>72</width>
+             <height>21</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{font: 75 10pt &quot;微软雅黑&quot;;border-image:url(:/img/app_round_button_gray.9.png);color:rgb(33, 37, 50)}
+QPushButton:hover{border-image: url(:/img/app_round_button_darkblue.9.png);color:rgb(255,255,255)}
+QPushButton:pressed{border-image: url(:/img/app_round_button_gray.9.png);color:rgb(33, 37, 50)}</string>
+           </property>
+           <property name="text">
+            <string>查看</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_3">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="main_hl_result_sa">
+         <property name="leftMargin">
+          <number>32</number>
+         </property>
+         <property name="rightMargin">
+          <number>3</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="label_5">
+           <property name="styleSheet">
+            <string notr="true">font: 75 10pt &quot;微软雅黑&quot;;
+color:rgb(234, 234, 234);</string>
+           </property>
+           <property name="text">
+            <string>语义分析</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="main_hl_result_sa_abstract">
+           <property name="styleSheet">
+            <string notr="true">font: 75 10pt &quot;微软雅黑&quot;;
+color:rgb(234, 234, 234);</string>
+           </property>
+           <property name="text">
+            <string>-----&gt;</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="main_hl_result_sa_see">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>72</width>
+             <height>21</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{font: 75 10pt &quot;微软雅黑&quot;;border-image:url(:/img/app_round_button_gray.9.png);color:rgb(33, 37, 50)}
+QPushButton:hover{border-image: url(:/img/app_round_button_darkblue.9.png);color:rgb(255,255,255)}
+QPushButton:pressed{border-image: url(:/img/app_round_button_gray.9.png);color:rgb(33, 37, 50)}</string>
+           </property>
+           <property name="text">
+            <string>查看</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_4">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="main_hl_result_icg">
+         <property name="leftMargin">
+          <number>32</number>
+         </property>
+         <property name="rightMargin">
+          <number>3</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="label_7">
+           <property name="styleSheet">
+            <string notr="true">font: 75 10pt &quot;微软雅黑&quot;;
+color:rgb(234, 234, 234);</string>
+           </property>
+           <property name="text">
+            <string>中间代码生成</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="main_hl_result_icg_abstract">
+           <property name="styleSheet">
+            <string notr="true">font: 75 10pt &quot;微软雅黑&quot;;
+color:rgb(234, 234, 234);</string>
+           </property>
+           <property name="text">
+            <string>-----&gt;</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="main_hl_result_icg_see">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>72</width>
+             <height>21</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{font: 75 10pt &quot;微软雅黑&quot;;border-image:url(:/img/app_round_button_gray.9.png);color:rgb(33, 37, 50)}
+QPushButton:hover{border-image: url(:/img/app_round_button_darkblue.9.png);color:rgb(255,255,255)}
+QPushButton:pressed{border-image: url(:/img/app_round_button_gray.9.png);color:rgb(33, 37, 50)}</string>
+           </property>
+           <property name="text">
+            <string>查看</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_5">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="main_hl_result_ico">
+         <property name="leftMargin">
+          <number>32</number>
+         </property>
+         <property name="rightMargin">
+          <number>3</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="label_9">
+           <property name="styleSheet">
+            <string notr="true">font: 75 10pt &quot;微软雅黑&quot;;
+color:rgb(234, 234, 234);</string>
+           </property>
+           <property name="text">
+            <string>中间代码优化</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="main_hl_result_ico_abstract">
+           <property name="styleSheet">
+            <string notr="true">font: 75 10pt &quot;微软雅黑&quot;;
+color:rgb(234, 234, 234);</string>
+           </property>
+           <property name="text">
+            <string>-----&gt;</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="main_hl_result_ico_see">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>72</width>
+             <height>21</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{font: 75 10pt &quot;微软雅黑&quot;;border-image:url(:/img/app_round_button_gray.9.png);color:rgb(33, 37, 50)}
+QPushButton:hover{border-image: url(:/img/app_round_button_darkblue.9.png);color:rgb(255,255,255)}
+QPushButton:pressed{border-image: url(:/img/app_round_button_gray.9.png);color:rgb(33, 37, 50)}</string>
+           </property>
+           <property name="text">
+            <string>查看</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_6">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="main_hl_result_ocg">
+         <property name="leftMargin">
+          <number>32</number>
+         </property>
+         <property name="rightMargin">
+          <number>3</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="label_11">
+           <property name="styleSheet">
+            <string notr="true">font: 75 10pt &quot;微软雅黑&quot;;
+color:rgb(234, 234, 234);</string>
+           </property>
+           <property name="text">
+            <string>目标代码生成</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="main_hl_result_ocg_abstract">
+           <property name="styleSheet">
+            <string notr="true">font: 75 10pt &quot;微软雅黑&quot;;
+color:rgb(234, 234, 234);</string>
+           </property>
+           <property name="text">
+            <string>-----&gt;</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="main_hl_result_ocg_see">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>72</width>
+             <height>21</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{font: 75 10pt &quot;微软雅黑&quot;;border-image:url(:/img/app_round_button_gray.9.png);color:rgb(33, 37, 50)}
+QPushButton:hover{border-image: url(:/img/app_round_button_darkblue.9.png);color:rgb(255,255,255)}
+QPushButton:pressed{border-image: url(:/img/app_round_button_gray.9.png);color:rgb(33, 37, 50)}</string>
+           </property>
+           <property name="text">
+            <string> 查看</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_7">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="main_hl_result_link">
+         <property name="leftMargin">
+          <number>32</number>
+         </property>
+         <property name="rightMargin">
+          <number>3</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="label_13">
+           <property name="styleSheet">
+            <string notr="true">font: 75 10pt &quot;微软雅黑&quot;;
+color:rgb(234, 234, 234);</string>
+           </property>
+           <property name="text">
+            <string>链接</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="main_hl_result_link_abstract">
+           <property name="styleSheet">
+            <string notr="true">font: 75 10pt &quot;微软雅黑&quot;;
+color:rgb(234, 234, 234);</string>
+           </property>
+           <property name="text">
+            <string>-----&gt;</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="main_hl_result_link_see">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>72</width>
+             <height>21</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{font: 75 10pt &quot;微软雅黑&quot;;border-image:url(:/img/app_round_button_green.9.png);color:rgb(234, 234, 234)}
+QPushButton:hover{border-image: url(:/img/app_round_button_darkblue.9.png);color:rgb(255,255,255)}
+QPushButton:pressed{border-image: url(:/img/app_round_button_green.9.png);color:rgb(234, 234, 234)}</string>
+           </property>
+           <property name="text">
+            <string>运行</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_8">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="main_wg_statusbar" native="true">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>21</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(41, 47, 68)</string>
+      </property>
+      <layout class="QHBoxLayout" name="main_hl_statusbar">
+       <property name="leftMargin">
+        <number>6</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>6</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QLabel" name="label_16">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>72</horstretch>
+           <verstretch>20</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>72</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>72</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 75 10pt &quot;微软雅黑&quot;;
+color:rgb(234, 234, 234);</string>
+         </property>
+         <property name="text">
+          <string>行</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="main_status_1row">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>72</horstretch>
+           <verstretch>20</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>72</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>72</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 75 10pt &quot;微软雅黑&quot;;
+color:rgb(234, 234, 234);</string>
+         </property>
+         <property name="text">
+          <string>155</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_18">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>72</horstretch>
+           <verstretch>20</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>72</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>72</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 75 10pt &quot;微软雅黑&quot;;
+color:rgb(234, 234, 234);</string>
+         </property>
+         <property name="text">
+          <string>列</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="main_status_2col">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>72</horstretch>
+           <verstretch>20</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>72</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>72</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 75 10pt &quot;微软雅黑&quot;;
+color:rgb(234, 234, 234);</string>
+         </property>
+         <property name="text">
+          <string>20</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_20">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>72</horstretch>
+           <verstretch>20</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>72</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>72</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 75 10pt &quot;微软雅黑&quot;;
+color:rgb(234, 234, 234);</string>
+         </property>
+         <property name="text">
+          <string>总行数</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="main_status_3total_row">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>72</horstretch>
+           <verstretch>21</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>72</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>72</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 75 10pt &quot;微软雅黑&quot;;
+color:rgb(234, 234, 234);</string>
+         </property>
+         <property name="text">
+          <string>200</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_22">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>72</horstretch>
+           <verstretch>20</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>72</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>72</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 75 10pt &quot;微软雅黑&quot;;
+color:rgb(234, 234, 234);</string>
+         </property>
+         <property name="text">
+          <string>总字节长度</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="main_status_4total_bytes">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>72</horstretch>
+           <verstretch>20</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>72</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>72</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 75 10pt &quot;微软雅黑&quot;;
+color:rgb(234, 234, 234);</string>
+         </property>
+         <property name="text">
+          <string>898</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_10">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="main_result_bt_show">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>15</width>
+           <height>15</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>15</width>
+           <height>15</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{border-image:url(:/img/app_up.png)}
+QPushButton:hover{border-image: url(:/img/app_up_hover.png)}
+QPushButton:pressed{border-image: url(:/img/app_up.png)}</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
