@@ -4,19 +4,19 @@
 
 ​		QTableWidget，多行多列控件。
 
-![](C:\Users\MarkCen\Desktop\Qt-Learning-Demo\0res\999992dialog_1tablewidget.png)
+![](https://github.com/MarkCens/Qt-Learning-Demo/blob/master/0res/999992dialog_1tablewidget.png)
 
 
 
 ​		BinaryTree，二叉树绘制（有点ugly）。
 
-![](C:\Users\MarkCen\Desktop\Qt-Learning-Demo\0res\999992dialog_3satree.png)
+![](https://github.com/MarkCens/Qt-Learning-Demo/blob/master/0res/999992dialog_3satree.png)
 
 
 
 ​		Button，自定义按钮。
 
-![](C:\Users\MarkCen\Desktop\Qt-Learning-Demo\0res\999992menubar_2button.png)
+![](https://github.com/MarkCens/Qt-Learning-Demo/blob/master/0res/999992menubar_2button.png)
 
 
 
@@ -28,19 +28,19 @@
 
 ​		Layout，Qt布局。
 
-![](C:\Users\MarkCen\Desktop\Qt-Learning-Demo\0res\999992menubar_6layout.png)
+![](https://github.com/MarkCens/Qt-Learning-Demo/blob/master/0res/999992menubar_5modal.png)
 
 
 
 ​		ButtonMenu，按钮菜单。
 
-![](C:\Users\MarkCen\Desktop\Qt-Learning-Demo\0res\999992menubar_7mymenu.png)
+![](https://github.com/MarkCens/Qt-Learning-Demo/blob/master/0res/999992menubar_7mymenu.png)
 
 
 
 ​		CodeEditor，好看的、有语法高亮的编辑器界面。
 
-![](C:\Users\MarkCen\Desktop\Qt-Learning-Demo\0res\999994CCompilerUI.png)
+![](https://github.com/MarkCens/Qt-Learning-Demo/blob/master/0res/999994CCompilerUI.png)
 
 
 
@@ -50,11 +50,11 @@
 
 ​		方式一如下：
 
-![](C:\Users\MarkCen\Desktop\Qt-Learning-Demo\0res\1583500948212.png)
+![](https://github.com/MarkCens/Qt-Learning-Demo/blob/master/0res/1583500948212.png)
 
 ​		方式二如下：
 
-![](C:\Users\MarkCen\Desktop\Qt-Learning-Demo\0res\1583501501664.png)
+![](https://github.com/MarkCens/Qt-Learning-Demo/blob/master/0res/1583501501664.png)
 
 
 
@@ -62,23 +62,23 @@
 
 ​		1、创建qrc文件。
 
-![1583501662153](C:\Users\MarkCen\AppData\Roaming\Typora\typora-user-images\1583501662153.png)
+![1583501662153](https://github.com/MarkCens/Qt-Learning-Demo/blob/master/0res/1583501662153.png)
 
 ​		然后在该项目目录之下新建一个资源文件夹，命名自定义，这个文件夹 便可以存放一些图片资源，这样项目在使用的时候可以使用相对路径，如果这些图片资源放在其他盘使用的则是绝对路径。比如，"res"。新建完后如下：
 
-![1583502593883](C:\Users\MarkCen\AppData\Roaming\Typora\typora-user-images\1583502593883.png)
+![1583502593883](https://github.com/MarkCens/Qt-Learning-Demo/blob/master/0res/1583502593883.png)
 
 ​	对刚刚添加的qrc文件添加“现有文件”。添加完后项目如下：
 
-![1583502873866](C:\Users\MarkCen\AppData\Roaming\Typora\typora-user-images\1583502873866.png)
+![1583502873866](https://github.com/MarkCens/Qt-Learning-Demo/blob/master/0res/1583502873866.png)
 
 ​		接下来在主窗口添加代码设置窗口图标：
 
-![1583502956280](C:\Users\MarkCen\AppData\Roaming\Typora\typora-user-images\1583502956280.png)
+![1583502956280](https://github.com/MarkCens/Qt-Learning-Demo/blob/master/0res/1583502956280.png)
 
 ​		修改完窗口图标和标题之后的效果如下：
 
-![1583503650019](C:\Users\MarkCen\AppData\Roaming\Typora\typora-user-images\1583503650019.png)
+![1583503650019](https://github.com/MarkCens/Qt-Learning-Demo/blob/master/0res/1583503650019.png)
 
 
 
@@ -88,13 +88,13 @@
 
 ​		原理如下：
 
-![1583505605223](C:\Users\MarkCen\AppData\Roaming\Typora\typora-user-images\1583505605223.png)
+![1583505605223](https://github.com/MarkCens/Qt-Learning-Demo/blob/master/0res/1583505605223.png)
 
 ​		demo：点击一个按钮，让另外一个按钮的文本发生变化。
 
-![1583509718353](C:\Users\MarkCen\AppData\Roaming\Typora\typora-user-images\1583509718353.png)
+![1583509718353](https://github.com/MarkCens/Qt-Learning-Demo/blob/master/0res/1583509718353.png)
 
-![1583509733718](C:\Users\MarkCen\AppData\Roaming\Typora\typora-user-images\1583509733718.png)
+![1583509733718](https://github.com/MarkCens/Qt-Learning-Demo/blob/master/0res/1583509733718.png)
 
 ​		MainWindow代码（记得在MainWindow头文件声明相关的成员）如下：
 
@@ -160,9 +160,9 @@ MainWindow::~MainWindow(){
 
 ​		除了在代码中设置，也可以在Qt Designer中点击控件的styleSheet属性，其中资源一般是图片。并对其添加相关的样式。如下：
 
-![1583639858766](C:\Users\MarkCen\AppData\Roaming\Typora\typora-user-images\1583639858766.png)
+![1583639858766](https://github.com/MarkCens/Qt-Learning-Demo/blob/master/0res/1583639858766.png)
 
-![1583639869008](C:\Users\MarkCen\AppData\Roaming\Typora\typora-user-images\1583639869008.png)
+![1583639869008](https://github.com/MarkCens/Qt-Learning-Demo/blob/master/0res/1583639869008.png)
 
 ### 3、按钮菜单
 
@@ -198,7 +198,7 @@ ui->main_menu_bt_1file->setMenu(file_menu);
 
 ​		3） 每一个Widget都需要制定布局，这样才能使布局（或者里面的控件）最大化，也就是随着窗口自适应。而Widget指定布局的位置如下图：
 
-![1584461432626](C:\Users\MarkCen\AppData\Roaming\Typora\typora-user-images\1584461432626.png)
+![1584461432626](https://github.com/MarkCens/Qt-Learning-Demo/blob/master/0res/1584461432626.png)
 
 
 
