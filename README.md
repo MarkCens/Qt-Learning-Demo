@@ -1,5 +1,49 @@
 # **Qt学习文档**
 
+​		那么，在该GitHub项目中，每一个目录都将会对应一个Qt项目，这些Qt项目的意义在于使用Qt的控件，并且还是关于开发自定义编辑器方面的。核心的Demo效果如下：
+
+​		QTableWidget，多行多列控件。
+
+![](C:\Users\MarkCen\Desktop\Qt-Learning-Demo\0res\999992dialog_1tablewidget.png)
+
+
+
+​		BinaryTree，二叉树绘制（有点ugly）。
+
+![](C:\Users\MarkCen\Desktop\Qt-Learning-Demo\0res\999992dialog_3satree.png)
+
+
+
+​		Button，自定义按钮。
+
+![](C:\Users\MarkCen\Desktop\Qt-Learning-Demo\0res\999992menubar_2button.png)
+
+
+
+​		Dialog，模态框。
+
+![](C:\Users\MarkCen\Desktop\Qt-Learning-Demo\0res\999992menubar_5modal.png)
+
+
+
+​		Layout，Qt布局。
+
+![](C:\Users\MarkCen\Desktop\Qt-Learning-Demo\0res\999992menubar_6layout.png)
+
+
+
+​		ButtonMenu，按钮菜单。
+
+![](C:\Users\MarkCen\Desktop\Qt-Learning-Demo\0res\999992menubar_7mymenu.png)
+
+
+
+​		CodeEditor，好看的、有语法高亮的编辑器界面。
+
+![](C:\Users\MarkCen\Desktop\Qt-Learning-Demo\0res\999994CCompilerUI.png)
+
+
+
 ## 一、标题栏
 
 ### 1、修改标题
